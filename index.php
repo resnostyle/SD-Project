@@ -20,13 +20,29 @@
 
 
             </div>
+
+            <div id="sidepanel">
+                <h1>What people are saying:</h1>
+                
+                <h2>On Twitter<span>(Tag: #SavingsSummit)</span></h2>
+                <div id="tweet">
+                    <div class="time">1 hour ago</div>
+                    Something about something.
+                </div>
+
+                <h2>From YouTube</h2>
+               <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe> -->
+                <a href="http://www.youtube.com/user/SchoolDudeDotCom">Watch more videos</a>
+
+                <h2>On Facebook</h2>
+            </div>
         </div>
 
         <div id="footer">
-            <div id="content">
-                <p><a href="#">Twitter</a> <a href="#">Facebook</a> <a href="#">YouTube</a>  | <a href="#">Contact Us</a> | <a href="#">Privacy</a></p>
+            
+                <p><a href="https://twitter.com/#!/schooldude">Twitter</a> <a href="https://www.facebook.com/SchoolDude">Facebook</a> <a href="http://www.youtube.com/user/SchoolDudeDotCom">YouTube</a>  | <a href="#">Contact Us</a> | <a href="#">Privacy</a></p>
                 <p>C 2012 SchoolDude.com - All Rights Reserved</p>
-            </div>
+            
         </div>
     </body>
 </html>

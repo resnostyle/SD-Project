@@ -13,12 +13,32 @@
     #navigation
          border-radius:4px
          float:right
-
+#content
+        background-color:#f4eede
+        width:700px
+#sidepanel
+    float:right
+    width:250px
+    h1
+        font-size:25px
+    h2
+        font-size:13px
+        span
+            color:#659453
+    #tweet
+        background-color:#e9e3d1
+        margin:15px
+        padding:15px
+        font-size:9px
+        .time
+            font-size:7px
+        
 #footer
+    clear:both
     background-color: #988356
     height: 118px
     width: 100%
-    #content
+    p
         text-align:center
         color: green
         padding-top:25px
