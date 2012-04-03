@@ -11,8 +11,11 @@
 
 #header
     #navigation
-         border-radius:4px
          float:right
+         padding:5px
+         ul
+            border-radius:4px
+            background-color:#9a7a54
          ul li
             float:left
             padding:5px
@@ -59,4 +62,7 @@ h1
 h2
     color:4e7340
     
-  
+//Buttons
+.button
+    border-radius:4px
+    background-color:#659453

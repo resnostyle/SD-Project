@@ -21,6 +21,10 @@
         </div>
 
         <div id="content">
+            <div id="flickr">
+                Summit Snapshots
+                <a href="#" class="button">Check out our Flickr Stream</a>
+            </div>
             <div id="blog">
             <h1>From the Blog</h1>
 
