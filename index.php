@@ -39,12 +39,14 @@
                     <div class="time">1 hour ago</div>
                     Something about something.
                 </div>
-
+                <a href="#" class="button">Follow @SchoolDude</a>
                 <h2>From YouTube</h2>
                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe> -->
                 <a href="http://www.youtube.com/user/SchoolDudeDotCom">Watch more videos</a>
 
                 <h2>On Facebook</h2>
+
+                <a href="#" class="button">Like us on Facebook</a>
             </div>
         </div>
 

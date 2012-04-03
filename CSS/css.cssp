@@ -64,5 +64,8 @@ h2
     
 //Buttons
 .button
-    border-radius:4px
+    border-radius:10px
     background-color:#659453
+    color:#fff
+    padding:5px
+    box-shadow:2px 2px 6px #000
