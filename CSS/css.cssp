@@ -41,7 +41,10 @@
         font-size:9px
         .time
             font-size:7px
-        
+   .youtube
+        background-color:#eae6d5
+   .facebook
+        background-color:#e8e3d0
 #footer
     clear:both
     background-color: #988356
@@ -69,3 +72,7 @@ h2
     color:#fff
     padding:5px
     box-shadow:2px 2px 6px #000
+.greenlink
+    color:#659352
+.underline
+    text-decoration:underline

@@ -23,7 +23,8 @@
         <div id="content">
             <div id="flickr">
                 Summit Snapshots
-                <a href="#" class="button">Check out our Flickr Stream</a>
+                <!-- http://api.flickr.com/services/feeds/photos_public.gne?id=25548587@N02&lang=en-us&format=rss_200 -->
+                <a href="http://www.flickr.com/photos/schooldude" class="button">Check out our Flickr Stream</a>
             </div>
             <div id="blog">
             <h1>From the Blog</h1>
@@ -39,10 +40,15 @@
                     <div class="time">1 hour ago</div>
                     Something about something.
                 </div>
-                <a href="#" class="button">Follow @SchoolDude</a>
+                <a href="http://twitter.com/#!/schooldude" class="button">Follow @SchoolDude</a>
+                <a href="#" class="greenlink" class="underline">More #SavingsSummit on Twitter</a>
+               
+
                 <h2>From YouTube</h2>
-               <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe> -->
-                <a href="http://www.youtube.com/user/SchoolDudeDotCom">Watch more videos</a>
+                <div class="youtube">
+               <!-- <iframe width="360" height="215" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe> -->
+                </div>
+                <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
 
                 <h2>On Facebook</h2>
 
@@ -51,9 +57,7 @@
         </div>
 
         <div id="footer">
-                <p><a href="https://twitter.com/#!/schooldude">Twitter</a> <a href="https://www.facebook.com/SchoolDude">Facebook</a> <a href="http://www.youtube.com/user/SchoolDudeDotCom">YouTube</a>  | <a href="#">Contact Us</a> | <a href="#">Privacy</a></p>
-                <p>C 2012 SchoolDude.com - All Rights Reserved</p>
-            
+               
         </div>
     </body>
 </html>
