@@ -3,14 +3,20 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     	<link rel="stylesheet" href="CSS/css.php?files=css.cssp" type="text/css" media="screen" />
-
-          
-        <title></title>
+        
+        <title>SchoolDude Media MashUp</title>
     </head>
     <body>
         <div id="header">
             <div id="navigation">
-                <a href="#">Link</a> | <a href="#">Link</a> | <a href="#">Link</a> |
+                <ul><li class="seperator"><a href="#">Home</a></li> <li class="seperator"><a href="#">Agenda</a></li> <li class="seperator"><a href="#">Locations</a> </li>
+                    <li class="seperator"><a href="#">FAQ</a></li> <li><a href="#">Summit Social</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#">Register</a></li>
+                </ul>
+                
             </div>
         </div>
 
@@ -39,7 +45,6 @@
         </div>
 
         <div id="footer">
-            
                 <p><a href="https://twitter.com/#!/schooldude">Twitter</a> <a href="https://www.facebook.com/SchoolDude">Facebook</a> <a href="http://www.youtube.com/user/SchoolDudeDotCom">YouTube</a>  | <a href="#">Contact Us</a> | <a href="#">Privacy</a></p>
                 <p>C 2012 SchoolDude.com - All Rights Reserved</p>
             

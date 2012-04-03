@@ -13,6 +13,12 @@
     #navigation
          border-radius:4px
          float:right
+         ul li
+            float:left
+            padding:5px
+            text-transform:uppercase
+    .seperator
+        border-right:1px solid #000
 #content
         background-color:#f4eede
         width:700px
