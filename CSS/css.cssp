@@ -13,21 +13,31 @@
     #navigation
          float:right
          padding:5px
-         ul
-            border-radius:4px
-            background-color:#9a7a54
-         ul li
-            float:left
-            padding:5px
-            text-transform:uppercase
-    .seperator
+#navigation ul
+    border-radius:4px
+    float:left
+    .register
+        background-color:#9a7a54
+    .main
+        background-color:#a2861
+    li
+        float:left
+        margin:15px
+    ul li
+        float:left
+        padding:5px
+        text-transform:uppercase
+
+.seperator
         border-right:1px solid #000
+    
+
 #content
         background-color:#f4eede
         width:700px
 #sidepanel
     float:right
-    width:250px
+    width:175px
     h1
         font-size:25px
     h2
