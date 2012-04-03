@@ -1,0 +1,36 @@
+@turbine
+    plugins:borderradius, resetstyle, fontface, boxshadow, backgroundgradient
+
+@constants
+    pagewidth:600px
+    //oswald:'Oswald', sans-serif
+@media screen
+
+//Import Fonts From Google
+//@css @import url(http://fonts.googleapis.com/css?family=Arvo|Oswald);
+
+#header
+    #navigation
+         border-radius:4px
+         float:right
+
+#footer
+    background-color: #988356
+    height: 118px
+    width: 100%
+    #content
+        text-align:center
+        color: green
+        padding-top:25px
+
+
+//Text
+h1
+    text-size:15px
+
+#blog
+
+h2
+    color:4e7340
+    
+  
