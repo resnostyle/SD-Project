@@ -34,10 +34,17 @@
 
 #content
         background-color:#f4eede
-        width:700px
+        width:900px
+        margin:auto auto
+#mainpanel
+    float:left
+    width:500px
+#flickr img
+    padding:5px
+
 #sidepanel
     float:right
-    width:175px
+    width:250px
     h1
         font-size:25px
     h2
@@ -64,14 +71,9 @@
         text-align:center
         color: green
         padding-top:25px
-
-
-//Text
 h1
-    text-size:15px
-
-#blog
-
+    font-size:35px
+    padding-top:15px
 h2
     color:4e7340
     

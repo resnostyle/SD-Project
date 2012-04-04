@@ -42,7 +42,7 @@ for ($i = 1; $i < 7; $i++)
 {
     //output image url
     //@todo abstract the url in a better way, this is messy
-    echo "<img height='100px' src='http://farm".$curl_unserialized['photos']['photo'][$i]['farm'].".static.flickr.com/"
+    echo "<img height='50px' src='http://farm".$curl_unserialized['photos']['photo'][$i]['farm'].".static.flickr.com/"
             .$curl_unserialized['photos']['photo'][$i]['server'].'/'.$curl_unserialized['photos']['photo'][$i]['id'].
             '_'.$curl_unserialized['photos']['photo'][$i]['secret'].".jpg"."'/>";
 }
