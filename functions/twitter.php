@@ -20,9 +20,13 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 // grab URL and pass it to the browser
 $curl_page = curl_exec($ch);
-
+ $curl_page = json_decode($curl_page,true);
 // close cURL resource
 curl_close($ch);
 
-var_dump(json_decode($curl_page));
+var_dump($curl_page);
+
+
+
+//print $curl_page->{'text'};
 /* End of file twitter.php */
