@@ -29,12 +29,12 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
     	<link rel="stylesheet" href="CSS/css.php?files=css.cssp" type="text/css" media="screen" />
         
         <title>SchoolDude Media MashUp</title>
-
 <?php
 //error reporting remember to remove this
 error_reporting(E_ALL);
 error_reporting(-1);
 ?>
+        
     </head>
     <body>
         <div id="header">
@@ -52,7 +52,7 @@ error_reporting(-1);
         <div id="content">
             <div id="flickr">
                 Summit Snapshots
-                <!-- http://api.flickr.com/services/feeds/photos_public.gne?id=25548587@N02&lang=en-us&format=rss_200 -->
+        <?php //include 'functions/flickr.php'; ?>
                 <a href="http://www.flickr.com/photos/schooldude" class="button">Check out our Flickr Stream</a>
             </div>
             <div id="blog">
@@ -75,7 +75,7 @@ error_reporting(-1);
 
                 <h2>From YouTube</h2>
                 <div class="youtube">
-                <iframe width="175" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
+             <!--   <iframe width="175" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe> -->
                 </div>
                 <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
 
