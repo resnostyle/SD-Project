@@ -27,15 +27,16 @@
         float:left
         padding:5px
         text-transform:uppercase
-
 .seperator
-        border-right:1px solid #000
-    
-
+    border-right:1px solid #000
+    margin-right:5px
 #content
-        background-color:#f4eede
-        width:900px
-        margin:auto auto
+    background-color:#f4eede
+    width:900px
+    margin:auto auto
+p
+    padding-top:15px
+
 #mainpanel
     float:left
     width:500px
@@ -50,12 +51,11 @@
     h2
         font-size:13px
         span
-            color:#659453
+        color:#659453
     #tweet
         background-color:#e9e3d1
-        margin:15px
-        padding:15px
-        font-size:9px
+        padding:10px
+        font-size:12px
         .time
             font-size:7px
    .youtube
@@ -76,10 +76,12 @@ h1
     padding-top:15px
 h2
     color:4e7340
+    padding-top:15px
+    padding-bottom:5px
     
 //Buttons
 .button
-    border-radius:10px
+    border-radius:14px
     background-color:#659453
     color:#fff
     padding:5px
