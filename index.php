@@ -39,12 +39,15 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
     </head>
     <body>
         <div id="header">
+            <div id="logo">
+                <img src="images/logo.png" />
+            </div>
             <div id="navigation">
-                <ul id="main"><li class="seperator"><a href="#">Home</a></li> <li class="seperator"><a href="#">Agenda</a></li> <li class="seperator"><a href="#">Locations</a> </li>
-                    <li class="seperator"><a href="#">FAQ</a></li> <li><a href="#">Summit Social</a></li>
+                <ul id="main"><li><a href="#">HOME</a></li> <li><a href="#">AGENDA</a></li> <li><a href="#">LOCATIONS</a> </li>
+                    <li><a href="#">FAQs</a></li> <li><a href="#">SUMMIT SOCIAL</a></li>
                 </ul>
                 <ul id="register">
-                    <li><a href="#">Register</a></li>
+                    <li><a href="#" class="underline">REGISTER</a></li>
                 </ul>
 
             </div>
@@ -75,15 +78,15 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
                         <a href="<?php echo $item->get_permalink(); ?>" class="underline">Read the full article</a>
                     </div>
                     <?php endforeach; ?>
-                    */ ?>
+                     */ ?>
                 </div>
             </div>
             <div id="sidepanel">
                 <h1>What people are saying:</h1>
 
                 <h2>On Twitter<span> (Tag: #SavingsSummit) </span></h2>
-
-                <?php include 'functions/twitter.php';
+<?php /*
+                <?php //include 'functions/twitter.php';
 
                 for ($i = 0; $i < 2; $i++)
                 { ?>
@@ -93,7 +96,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                     }
                     ?>
-
+ */ ?>
 
                     <p><a href="http://twitter.com/#!/schooldude" class="button">Follow @SchoolDude</a></p>
                     <p><a href="https://twitter.com/#!/search/%23savingssummit" class="greenlink" class="underline">More #SavingsSummit on Twitter</a></p>
@@ -101,12 +104,14 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                     <h2>On YouTube</h2>
                     <div class="youtube">
-                        <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
-
+                      <?php
+                      /*
+                      <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
+*/ ?>
                         <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
                     </div>
                     <h2>On Facebook</h2>
-
+                    <img src="images/facebook.png" />
                     <a href="https://www.facebook.com/SchoolDude" class="button">Like us on Facebook</a>
                 </div>
             </div>
