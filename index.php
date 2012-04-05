@@ -49,7 +49,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
             </div>
         </div>
 
-   <?php /*     <div id="content">
+       <div id="content">
             <div id="mainpanel">
 
                 <div id="flickr">
@@ -116,6 +116,4 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
             </div>
     </body>
 </html>
-    *
-    *
-    */ ?>
+   

@@ -7,7 +7,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 }
 #logo img {
-    padding-left:170px;
+    padding-left:210px;
     padding-top:25px;
     width: 304px;
     float:left;
@@ -56,30 +56,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 }
 
-
-/*ul .main {
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -khtml-border-radius: 4px;
-    background-color: black;
-    float: left;
-}
-#navigation ul .register {
-    background-color: #9a7a54;
-}
-#navigation ul .main {
-    background-color: #a2861;
-}
-#navigation ul li {
-    float: left;
-    margin: 15px;
-}
-#navigation ul ul li {
-    float: left;
-    padding: 5px;
-
-}*/
 .seperator {
     border-right: 1px solid #fff;
     margin-right: 5px;
@@ -88,7 +64,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 #content {
     background-color: #f4eede;
-    width: 900px;
+    width: 800px;
     margin: auto auto;
 }
 p {
