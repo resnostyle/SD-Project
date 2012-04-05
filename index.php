@@ -55,12 +55,12 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                 <div id="flickr">
                     <h1>Summit Snapshots</h1>
-                    <?php include 'functions/flickr.php'; ?>
+                    <?php //include 'functions/flickr.php'; ?>
                     <p><a href="http://www.flickr.com/photos/schooldude" class="button">Check out our Flickr Stream</a></p>
                 </div>
                 <div id="blog">
                     <h1>From the Blog</h1>
-
+                    <?php /*
                     <?php include 'functions/blog.php'; ?>
 
                     <?php foreach ($feed->get_items() as $item): ?>
@@ -75,35 +75,44 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
                         <a href="<?php echo $item->get_permalink(); ?>" class="underline">Read the full article</a>
                     </div>
                     <?php endforeach; ?>
-
+                    */ ?>
                 </div>
             </div>
             <div id="sidepanel">
                 <h1>What people are saying:</h1>
 
-                <h2>On Twitter<span>(Tag: #SavingsSummit)</span></h2>
-                <div id="tweet">
-                    <div class="time">1 hour ago</div>
-                    Something about something.
+                <h2>On Twitter<span> (Tag: #SavingsSummit) </span></h2>
+
+                <?php include 'functions/twitter.php';
+
+                for ($i = 0; $i < 2; $i++)
+                { ?>
+                <div id="tweet"><div class="time"><?php echo twitter_time($curl_page[results][$i]["created_at"]); ?> </div>
+
+                        <?php echo $curl_page[results][$i]["text"]."</div>";
+
+                    }
+                    ?>
+
+
+                    <p><a href="http://twitter.com/#!/schooldude" class="button">Follow @SchoolDude</a></p>
+                    <p><a href="https://twitter.com/#!/search/%23savingssummit" class="greenlink" class="underline">More #SavingsSummit on Twitter</a></p>
+
+
+                    <h2>On YouTube</h2>
+                    <div class="youtube">
+                        <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                        <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
+                    </div>
+                    <h2>On Facebook</h2>
+
+                    <a href="https://www.facebook.com/SchoolDude" class="button">Like us on Facebook</a>
                 </div>
-                <p><a href="http://twitter.com/#!/schooldude" class="button">Follow @SchoolDude</a></p>
-                <p><a href="https://twitter.com/#!/search/%23savingssummit" class="greenlink" class="underline">More #SavingsSummit on Twitter</a></p>
-
-
-                <h2>On YouTube</h2>
-                <div class="youtube">
-                    <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
-
-                    <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
-                </div>
-                <h2>On Facebook</h2>
-
-                <a href="https://www.facebook.com/SchoolDude" class="button">Like us on Facebook</a>
             </div>
-        </div>
 
-        <div id="footer">
+            <div id="footer">
 
-        </div>
+            </div>
     </body>
 </html>
