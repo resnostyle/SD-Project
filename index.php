@@ -28,13 +28,9 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="CSS/second.css" type="text/css" media="screen" />
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
         <title>SchoolDude Media MashUp</title>
-        <?php
-
-//error reporting remember to remove this
-//error_reporting(E_ALL | E_STRICT);
-//error_reporting(-1);
-        ?>
+        
 
     </head>
     <body>
@@ -43,8 +39,8 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
                 <img src="images/logo.png" />
             </div>
             <div id="navigation">
-                <ul id="main"><li><a href="#">HOME</a></li> <li><a href="#">AGENDA</a></li> <li><a href="#">LOCATIONS</a> </li>
-                    <li><a href="#">FAQs</a></li> <li><a href="#">SUMMIT SOCIAL</a></li>
+                <ul id="main"><li class="seperator"><a href="#">HOME</a></li> <li class="seperator"><a href="#">AGENDA</a></li> <li class="seperator"><a href="#">LOCATIONS</a> </li>
+                    <li class="seperator"><a href="#">FAQs</a></li> <li><a href="#">SUMMIT SOCIAL</a></li>
                 </ul>
                 <ul id="register">
                     <li><a href="#" class="underline">REGISTER</a></li>
@@ -53,17 +49,17 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
             </div>
         </div>
 
-        <div id="content">
+   <?php /*     <div id="content">
             <div id="mainpanel">
 
                 <div id="flickr">
                     <h1>Summit Snapshots</h1>
-                    <?php //include 'functions/flickr.php'; ?>
+                    <?php include 'functions/flickr.php'; ?>
                     <p><a href="http://www.flickr.com/photos/schooldude" class="button">Check out our Flickr Stream</a></p>
                 </div>
                 <div id="blog">
                     <h1>From the Blog</h1>
-                    <?php /*
+
                     <?php include 'functions/blog.php'; ?>
 
                     <?php foreach ($feed->get_items() as $item): ?>
@@ -78,15 +74,15 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
                         <a href="<?php echo $item->get_permalink(); ?>" class="underline">Read the full article</a>
                     </div>
                     <?php endforeach; ?>
-                     */ ?>
+
                 </div>
             </div>
             <div id="sidepanel">
                 <h1>What people are saying:</h1>
 
-                <h2>On Twitter<span> (Tag: #SavingsSummit) </span></h2>
-<?php /*
-                <?php //include 'functions/twitter.php';
+                <h2>On Twitter <span class="green"> (Tag: #SavingsSummit) </span></h2>
+
+                <?php include 'functions/twitter.php';
 
                 for ($i = 0; $i < 2; $i++)
                 { ?>
@@ -96,23 +92,22 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                     }
                     ?>
- */ ?>
+ 
 
                     <p><a href="http://twitter.com/#!/schooldude" class="button">Follow @SchoolDude</a></p>
-                    <p><a href="https://twitter.com/#!/search/%23savingssummit" class="greenlink" class="underline">More #SavingsSummit on Twitter</a></p>
+                    <p><a href="https://twitter.com/#!/search/%23savingssummit" class="timesfont" class="greenlink">More #SavingsSummit on Twitter</a></p>
 
 
                     <h2>On YouTube</h2>
                     <div class="youtube">
-                      <?php
-                      /*
+                      
                       <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
-*/ ?>
+
                         <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
                     </div>
                     <h2>On Facebook</h2>
                     <img src="images/facebook.png" />
-                    <a href="https://www.facebook.com/SchoolDude" class="button">Like us on Facebook</a>
+                    <p><a href="https://www.facebook.com/SchoolDude" class="button">Like us on Facebook</a></p>
                 </div>
             </div>
 
@@ -121,3 +116,6 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
             </div>
     </body>
 </html>
+    *
+    *
+    */ ?>

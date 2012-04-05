@@ -4,7 +4,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background-image:url('../images/header.png');
     width:100%;
     height:110px;
-       
+
 }
 #logo img {
     padding-left:170px;
@@ -16,16 +16,51 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 #header #navigation {
     float: right;
     padding: 5px;
-    padding-right:130px;
+    padding-right:200px;
     font-size: 15px;
-    font-family: 'Oswold', serif;
-    padding-top:10px;
+    font-family: 'Oswald', sans-serif;
+    padding-top:20px;
+    font-weight:normal;
+}
+
+#navigation {
     
 }
-ul .main {
+#navigation li{
+    float:left;
+    padding-right: 10px;
+}
+#navigation #main {
+    float:left;
+    margin:10px;
+    text-shadow: 0 1px 1px #000;
+    background-color: #a18461;
+}
+#navigation #register {
+    float:right;
+    margin:10px;
+    background-color: #816646;
+
+}
+
+#navigation ul {
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin: 12px;
+    font-size: 12px;
+    
+}
+#navigation ul li {
+
+
+}
+
+
+/*ul .main {
     border-radius: 4px;
-    -moz-border-radius: 4px; 
-    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
     background-color: black;
     float: left;
@@ -43,12 +78,13 @@ ul .main {
 #navigation ul ul li {
     float: left;
     padding: 5px;
-    
-}
+
+}*/
 .seperator {
-    border-right: 1px solid #000;
+    border-right: 1px solid #fff;
     margin-right: 5px;
-    
+    margin-left: 5px;
+    text-shadow: 0 1px 1px #000;
 }
 #content {
     background-color: #f4eede;
@@ -56,7 +92,7 @@ ul .main {
     margin: auto auto;
 }
 p {
-   padding-top: 15px;
+    padding-top: 15px;
 }
 #mainpanel {
     float: left;
@@ -107,7 +143,7 @@ p {
     background-color: #988356;
     height: 118px;
     width: 100%;
-    
+
 }
 #footer p {
     text-align: center;
@@ -118,7 +154,7 @@ h1 {
     font-size: 15px;
     padding-top: 15px;
     font-family: 'Arvo', serif;
-     font-weight:bold;
+    font-weight:bold;
 }
 h2 {
     color: 4e7340;
@@ -126,19 +162,19 @@ h2 {
     padding-bottom: 5px;
 }
 .button {
-    border-radius: 14px; 
+    border-radius: 14px;
     background-color: #659453;
     color: #fff;
     padding: 5px;
     padding-left: 8px;
     box-shadow: 2px 2px 6px #000;
     -moz-box-shadow: 2px 2px 4px #000;
-    -webkit-box-shadow: 2px 2px 6px #000; 
-    zoom: 1; 
-    -moz-border-radius: 14px; 
-    -webkit-border-radius: 14px; 
-    -khtml-border-radius: 14px; 
-    filter: progid:DXImageTransform.Microsoft.Shadow(Color='#000000',Direction=135,Strength=4); 
+    -webkit-box-shadow: 2px 2px 6px #000;
+    zoom: 1;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -khtml-border-radius: 14px;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Color='#000000',Direction=135,Strength=4);
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color='#000000',Direction=135,Strength=4)";
     font-family: 'Arvo', serif;
     font-size: 12px;
@@ -148,7 +184,7 @@ h2 {
 }
 .greenlink {
     color: #659352;
-    margin: 105px;
+
 }
 .underline {
     text-decoration: underline;
@@ -156,13 +192,28 @@ h2 {
 
 #blog p, #readmore {
     font-size: 12px;
-    font-family: arial, Helvetica,sans-serif; 
-  
+    font-family: arial, Helvetica,sans-serif;
+
+}
+.green {
+    color:#659453;
 }
 
-#blog h1 { font-size:15px; font-family: 'Arvo', serif; font-weight:normal; padding-top:85px;  }
-#blog h2 { font-size:13px; font-family: 'Arvo', serif; font-weight:normal;  }
-h3 { font-size:20px; font-family: 'Arvo', serif; font-weight:normal; padding-bottom:15px;  }
-h4 { font-size:18px; font-family: 'Arvo', serif; font-weight:normal; padding-bottom:15px;  }
-h5 { font-size:15px; font-family: 'Arvo', serif; font-weight:normal; padding-bottom:15px;  }
-h6 { font-size:14px; font-family: 'Arvo', serif; font-weight:normal; padding-bottom:15px;  }
+#blog h1 {
+    font-size:15px;
+    font-family: 'Arvo', serif;
+    font-weight:normal;
+    padding-top:85px;
+}
+
+#blog h2 { 
+    font-size:13px;
+    font-family: 'Arvo', serif;
+    font-weight:normal;
+}
+
+.timesfont {
+    font-family:"Times New Roman",Georgia,Serif;
+    font-size: 9px;
+    text-decoration: underline;
+}
