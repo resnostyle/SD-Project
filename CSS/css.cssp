@@ -40,6 +40,8 @@ p
 #mainpanel
     float:left
     width:500px
+    #postdetails
+        text-transform:uppercase
 #flickr img
     padding:5px
 
@@ -86,6 +88,8 @@ h2
     color:#fff
     padding:5px
     box-shadow:2px 2px 6px #000
+    :hover
+        cursor:pointer
 .greenlink
     color:#659352
 .underline
