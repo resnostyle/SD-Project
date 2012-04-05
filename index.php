@@ -18,7 +18,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
   * From the Blog: This is a stream from our blog located at : http://www.schooldude.com/blog/.
     We only want to show posts from the Energy category.
- 
+
 */
 ?>
 
@@ -30,7 +30,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
         <title>SchoolDude Media MashUp</title>
-        
+
 
     </head>
     <body>
@@ -49,7 +49,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
             </div>
         </div>
 
-       <div id="content">
+        <div id="content">
             <div id="mainpanel">
 
                 <div id="flickr">
@@ -92,7 +92,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                     }
                     ?>
- 
+
 
                     <p><a href="http://twitter.com/#!/schooldude" class="button">Follow @SchoolDude</a></p>
                     <p><a href="https://twitter.com/#!/search/%23savingssummit" class="timesfont" class="greenlink">More #SavingsSummit on Twitter</a></p>
@@ -100,8 +100,8 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                     <h2>On YouTube</h2>
                     <div class="youtube">
-                      
-                      <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                        <iframe style="float:right" width="240" height="119" src="https://www.youtube.com/embed/GemGY0r6gTU?rel=0" frameborder="0" allowfullscreen></iframe>
 
                         <a href="http://www.youtube.com/user/SchoolDudeDotCom" class="greenlink">Watch more videos</a>
                     </div>
@@ -116,4 +116,3 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
             </div>
     </body>
 </html>
-   

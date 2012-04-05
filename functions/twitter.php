@@ -1,4 +1,6 @@
 <?php
+if ( $REQUEST_URL == $URL_OF_CURRENT_PAGE ) die ("Direct access not premitted");
+
 /*
  * @package Twitter Call
  * @author Bryan Pearson <bp at bryanwp>

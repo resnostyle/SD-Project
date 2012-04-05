@@ -1,9 +1,11 @@
 <?php
+if ( $REQUEST_URL == $URL_OF_CURRENT_PAGE ) die ("Direct access not premitted");
+
 /*
  * @package Flickr Call
  * @author Bryan Pearson <bp at bryanwp>
  * @copyright Apr 3, 2012
- */
+*/
 
 $flickr_method = "flickr.people.getPublicPhotos";
 $return_format = "php_serial";
