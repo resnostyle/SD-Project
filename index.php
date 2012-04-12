@@ -60,7 +60,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
                 <div id="blog">
                     <h1>From the Blog</h1>
 
-                    <?php include 'functions/blog.php'; ?>
+                    <?php @include 'functions/blog.php'; ?>
 
                     <?php foreach ($feed->get_items() as $item): ?>
 
