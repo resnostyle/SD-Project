@@ -60,14 +60,15 @@ error_reporting(-1);
             <div id="blog">
             <h1>From the Blog</h1>
 
-            <h2>Blog Post</h2>
-<!-- http://www.schooldude.com/blog/category/energy/feed/ -->
 	<?php include 'functions/blog.php'; ?>
+
 <?php foreach ($feed->get_items() as $item): ?> 
 
-<div id="postdetails">
-POSTED <?php echo $item->get_date('F J Y'); ?> | BY <?php echo $item->get_author(); ?> | COMMENTS(0)
-            </div>
+<h2> <?php echo $item->get_title(); ?> </h2>
+
+	<div id="postdetails">
+POSTED <?php echo $item->get_date('F J Y'); ?> | BY <?php echo $item->get_creator(); ?> | COMMENTS(0)
+        </div>
 <?php echo  $item->get_description(); ?>
 
 <div id="readmore">
