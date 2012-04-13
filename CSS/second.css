@@ -237,7 +237,8 @@ h2 {
 }
 #facebook #post {
 margin-bottom:25px;
-    clear:both;
+padding-bottom:10px;
+clear:both;
 }
 #facebook #fbpic {
     width:30px;
