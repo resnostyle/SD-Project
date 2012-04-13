@@ -107,6 +107,7 @@ p {
 #sidepanel {
     float: right;
     width: 250px;
+    padding-bottom:25px;
 }
 #sidepanel h1 {
     font-size: 15px;
@@ -131,8 +132,11 @@ p {
 .youtube {
     background-color: #eae6d5;
 }
-.facebook {
+/*#facebook {
     background-color: #e8e3d0;
+}*/
+#fbpost {
+    font-size:12px;
 }
 #footer {
     clear: both;
@@ -237,8 +241,8 @@ h2 {
 }
 
 #facebook #fbpost {
-    color: #000;
+color:#3B5998;
     float:right;
     width: 210px;
-    font-size: 15px;
+    font-size: 12px;
 }
