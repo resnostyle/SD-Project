@@ -35,7 +35,6 @@ if ($curl_unserialized['stat'] != 'ok')
 {
     echo 'Flickr has returned a bad status.';
     //@todo log this info for further analysis, likely being rate limited, cache queries?
-    die();
 }
 
 for ($i = 1; $i < 7; $i++)
@@ -48,3 +47,4 @@ for ($i = 1; $i < 7; $i++)
 }
 
 /* End of file flickr.php */
+?>
