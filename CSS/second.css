@@ -18,13 +18,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 #header #navigation {
-    float: right;
+   float: right;
     padding: 5px;
     padding-right:2px;
     font-size: 15px;
     font-family: 'Oswald', sans-serif;
     padding-top:20px;
     font-weight:normal;
+    _background-image:url ('../images/nav.png');
+    width: 100%
+    height:20px;
 }
 
 #navigation {
@@ -65,7 +68,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
-    background-color: #659453;
+     border-radius: 5px;
+     background-color: #659453;
 }
 #navigation ul li {
 
@@ -229,9 +233,11 @@ h2 {
 #facebook {
     padding-top: 10px;
     padding-bottom: 20px;
+    margin-bottom:15px;
 }
 #facebook #post {
-    padding-bottom:45px;
+margin-bottom:25px;
+    clear:both;
 }
 #facebook #fbpic {
     width:30px;
@@ -241,8 +247,9 @@ h2 {
 }
 
 #facebook #fbpost {
-color:#3B5998;
+    color:#333;
     float:right;
     width: 210px;
     font-size: 12px;
+    margin-bottom:25px;
 }

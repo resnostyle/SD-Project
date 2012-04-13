@@ -13,7 +13,7 @@
                 <!--[if lt IE 9]>
                 <style type="text/css">
                 /**ROUNDED CORNERS FOR PRE-IE9 ONLY - REQUIRES THE BORDER RADIUS.HTC FILE**/
-                .button, #navigation ul {
+                .button, #navigation ul, #navigation {
                 behavior: url(border-radius.htc)}
                 </style>
                 <![endif]-->
@@ -126,7 +126,7 @@
                                         <!-- Theres suppose to be some sorta image here -->
                                     </div>
                                     <div id="fbpost">
-                                        We love SchoolDude! He's the best dude in town.
+Our Blog was the victim of a spam bot attack. We apologize for any offensive comments that were posted. We have now resolved the issue.
                                     </div>
                                 </div>
                                 <div id="post">
@@ -134,7 +134,7 @@
                                         <!-- Theres suppose to be some sorta image here -->
                                     </div>
                                     <div id="fbpost">
-                                        We love SchoolDude! He's the best dude in town.
+Looking for Presentations, Photos, or Podcasts from SchoolDude University 2012? The Dude Ranch Page has everything that you are looking for!
                                     </div>
                                 </div>
 
