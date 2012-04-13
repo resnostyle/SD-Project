@@ -5,11 +5,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     width:100%;
     height:110px;
 }
-#header{
+#header {
     width:900px;
-    margin:auto auto;
+    margin:0 auto;
+
 }
-#logo img {
+#logo {
     padding-left:21px;
     padding-top:25px;
     width: 304px;
@@ -33,22 +34,31 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     float:left;
     padding-right: 10px;
 }
+
 #navigation #main {
     float:left;
     margin:10px;
-    text-shadow: 0 1px 1px #000;
     background-color: #a18461;
 }
 #navigation #register {
     float:right;
     margin:10px;
     background-color: #816646;
+}
 
+.active a {
+    font-size:25px;
+    color:#000;
+
+}
+/*To please the IE in me */
+#navigation a {
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
 }
 
 #navigation ul {
     border-radius: 5px;
-    color: #fff;
     padding: 10px;
     margin: 12px;
     font-size: 12px;
@@ -68,7 +78,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 #content {
     background-color: #f4eede;
     width: 800px;
-    margin:0 auto;
+    margin:0px auto;
+
+}
+body {
+    background-color: #f4eede;
 }
 p {
     padding-top: 15px;
@@ -136,7 +150,7 @@ h1 {
     font-weight:bold;
 }
 h2 {
-    color: 4e7340;
+    color: #4e7340;
     padding-top: 15px;
     padding-bottom: 5px;
 }
@@ -192,6 +206,9 @@ h2 {
     font-size:13px;
     font-family: 'Arvo', serif;
     font-weight:normal;
+}
+#blog h2 a {
+    color: #4e7340;
 }
 
 .timesfont {

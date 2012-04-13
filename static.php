@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
@@ -10,6 +11,7 @@
 
     </head>
     <body>
+<div id="headerbackground">
         <div id="header">
             <div id="logo">
                 <img src="images/logo.png" />
@@ -24,7 +26,7 @@
 
             </div>
         </div>
-
+</div>
         <div id="content">
             <div id="mainpanel">
 
@@ -86,7 +88,7 @@
 
                                 <div id="tweet"><div class="time">3 hours ago </div>
 
-                        Are you a Lonerider? http://t.co/uF91eGta</div>                <div id="tweet"><div class="time">5 hours ago </div>
+                        Are you a Lonerider? http://t.co/uF91eGta</div>                <div id="tweet"><div class="time">6 hours ago </div>
 
                         RT @ncbrewingorg: Looking forward to LoneRider Brewery's True Brit ESB! http://t.co/Wy9eoDkp</div>
 

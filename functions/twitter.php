@@ -1,5 +1,5 @@
 <?php
-if ( $REQUEST_URL == $URL_OF_CURRENT_PAGE ) die ("Direct access not premitted");
+//if ( $REQUEST_URL == $URL_OF_CURRENT_PAGE ) die ("Direct access not premitted");
 
 /*
  * @package Twitter Call
@@ -8,7 +8,7 @@ if ( $REQUEST_URL == $URL_OF_CURRENT_PAGE ) die ("Direct access not premitted");
 */
 
 $search_method = 'json';
-$search_term = '%23savingssummit';
+$search_term = 'lonerider';
 $results_requested = '2';
 $result_type = 'recent';
 

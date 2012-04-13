@@ -34,6 +34,7 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
     </head>
     <body>
+<div id="headerbackground">
         <div id="header">
             <div id="logo">
                 <img src="images/logo.png" />
@@ -48,13 +49,13 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
             </div>
         </div>
-
+</div>
         <div id="content">
             <div id="mainpanel">
 
                 <div id="flickr">
                     <h1>Summit Snapshots</h1>
-                    <?php include 'functions/flickr.php'; ?>
+                    <?php require 'functions/flickr.php'; ?>
                     <p><a href="http://www.flickr.com/photos/schooldude" class="button">Check out our Flickr Stream</a></p>
                 </div>
                 <div id="blog">
@@ -82,8 +83,10 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
 
                 <h2>On Twitter <span class="green"> (Tag: #SavingsSummit) </span></h2>
 
-                <?php include 'functions/twitter.php';
+                <?php require 'functions/twitter.php';
 
+if ($curl_page[results]["1"]["created_at"] != "")
+{
                 for ($i = 0; $i < 2; $i++)
                 { ?>
                 <div id="tweet"><div class="time"><?php echo twitter_time($curl_page[results][$i]["created_at"]); ?> </div>
@@ -91,6 +94,11 @@ http://www.youtube.com/watch?v=GemGY0r6gTU&list=UUyQQqjt2BeeBXqwD_SFDj1g&index=2
                         <?php echo $curl_page[results][$i]["text"]."</div>";
 
                     }
+}
+else {
+?>	<div id="tweet"> No tweets about the #SavingsSummit found!
+</div>
+<?php }
                     ?>
 
 
